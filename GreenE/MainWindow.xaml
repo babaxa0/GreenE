@@ -1,0 +1,17 @@
+﻿<Window x:Class="GreenE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GreenE"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="470" Width="850">
+    <Grid>
+        <TextBlock FontSize="30" Margin="360,97,72,203">GreenE</TextBlock>
+        <TextBlock Height="30" Width="50" RenderTransformOrigin="0.576,-0.928" Margin="375,149,375,255">Login</TextBlock>
+        <TextBox x:Name="TLogin" Width="100" Margin="343,177,357,231"></TextBox>
+        <TextBlock RenderTransformOrigin="0.576,-0.928" Margin="388,205,388,196">Password</TextBlock>
+        <PasswordBox x:Name="Tpassword" Margin="360,223,374,185"/>
+        <Button Margin="340,274,354,112" Click="Button_Click">Log</Button>
+    </Grid>
+</Window>
